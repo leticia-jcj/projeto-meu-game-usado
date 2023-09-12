@@ -73,6 +73,11 @@ section.pesquisa .div2 > ion-icon {
     font-size: 20px;
 }
 
+section.pesquisa .div3 {
+    padding: 10px;
+    cursor: pointer;
+}
+
 section.pesquisa .div3:hover {
     background-color: var(--color-all);
 }
@@ -85,6 +90,11 @@ section.pesquisa .div3:hover > ion-icon {
 section.pesquisa .div5 {
     padding: 8px;
     border-radius: 10px;
+}
+
+section.pesquisa .div4:hover {
+    border: 1px solid var(--color-all);
+    padding: 10px;
 }
 
 section.pesquisa .div5 > ion-icon {
