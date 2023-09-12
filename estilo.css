@@ -1,0 +1,31 @@
+* {
+    /* width: 0; */
+    padding: 0;
+    border: 1px solid red;
+}
+
+header {
+}
+
+header section {
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+section.links {
+    text-align: center;
+}
+
+section.links a {
+    font-size: 13px;
+}
+
+section.links > a:nth-child(1) {
+    color: gray;
+}
+
+section.links > a:nth-child(2) {
+    color: white;
+    font-weight: bolder;
+}
